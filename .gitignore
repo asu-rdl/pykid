@@ -1,2 +1,5 @@
 kidpy3/__pycache__
 tests/__pycache__
+.idea
+dist
+kidpy3.egg-info
