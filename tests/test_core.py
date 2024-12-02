@@ -1,8 +1,8 @@
 print("Begin Test")
 
 print("Imports")
-import kidpy3
-from kidpy3.data_handler import generate_config
+import src.kidpy3 as kidpy3
+from src.kidpy3.data_handler import generate_config
 
 print("Generate Config")
 config = generate_config("mytest.yml")
