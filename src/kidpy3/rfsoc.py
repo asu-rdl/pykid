@@ -152,7 +152,7 @@ class RFSOC:
             self.yaml_file = yaml_file
             self.rf1 = Rfchan()
             self.rf2 = Rfchan()
-            self.rcon = RedisConnection(self.cfg.rfsoc_config.redis_ip, self.cfg.rfsoc_config.redis_port)
+            
             try:
                 self.name = self.cfg.rfsoc_config.rfsoc_name
                 self.eth = self.cfg.rfsoc_config.ethernet_config
@@ -160,9 +160,13 @@ class RFSOC:
                 self.rf2.ip = self.eth.udp_data_b_destip
                 self.rf1.port = self.eth.port_a
                 self.rf2.port = self.eth.port_b
+                self.redisip = self.cfg.rfsoc_config.redis_ip
+                self.redisport = self.cfg.rfsoc_config.redis_port
+                self.bitstream = self.cfg.rfsoc_config.bitstream
             except omegaconf.errors.ConfigAttributeError:
                 log.error("Missing an entry in the YAML config. Please correct the issue or regenerate a new"
                           "configuration file.")
+            self.rcon = RedisConnection(self.redisip, self.redisport)
 
     def reload_cfg(self):
         """
@@ -170,6 +174,8 @@ class RFSOC:
         """
         self.cfg = OmegaConf.load(self.yaml_file)
         del self.rcon
+        self.redisip = self.cfg.rfsoc_config.redis_ip
+        self.redisport = self.cfg.rfsoc_config.redis_port
         self.rcon = RedisConnection(self.cfg.rfsoc_config.redis_ip, self.cfg.rfsoc_config.redis_port)
         self.name = self.cfg.rfsoc_config.rfsoc_name
         self.eth = self.cfg.rfsoc_config.ethernet_config
@@ -177,13 +183,14 @@ class RFSOC:
         self.rf2.ip = self.eth.udp_data_b_destip
         self.rf1.port = self.eth.port_a
         self.rf2.port = self.eth.port_b
+        self.bitstream = self.cfg.rfsoc_config.bitstream
 
 
 # FIXME: We're actually goin go pull this from the yml file
-    def upload_bitstream(self, path: str):
+    def upload_bitstream(self):
         """Command the RFSoC to upload(or reupload) it's FPGA Firmware"""
-        assert isinstance(path, str) == True, "Path should be a string"
-        args = {"abs_bitstream_path": path}
+        
+        args = {"abs_bitstream_path": self.bitstream}
         response = self.rcon.issue_command(self.name, "upload_bitstream", args, 20)
         if response is None:
             log.error("upload_bitstream failed")

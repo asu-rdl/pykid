@@ -1,0 +1,534 @@
+2024-12-02 17:26:14,026|INFO|redisControl.py|23|<module>| Starting redisControl.py; loading libraries
+2024-12-02 17:26:18,962|INFO|redisControl.py|233|__init__| Attempting to connect to redis server
+2024-12-02 17:26:18,963|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:26:18,971|ERROR|redisControl.py|263|check_connection| Redis Connection Error
+2024-12-02 17:26:18,971|WARNING|redisControl.py|246|__init__| Could not connect to redis server
+2024-12-02 17:26:21,975|INFO|redisControl.py|233|__init__| Attempting to connect to redis server
+2024-12-02 17:26:21,975|INFO|redisControl.py|235|__init__| Attempt 1 to connect to redis server
+2024-12-02 17:26:21,976|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:26:21,977|ERROR|redisControl.py|263|check_connection| Redis Connection Error
+2024-12-02 17:26:21,977|WARNING|redisControl.py|246|__init__| Could not connect to redis server
+2024-12-02 17:26:24,981|INFO|redisControl.py|233|__init__| Attempting to connect to redis server
+2024-12-02 17:26:24,981|INFO|redisControl.py|235|__init__| Attempt 2 to connect to redis server
+2024-12-02 17:26:24,982|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:26:24,983|ERROR|redisControl.py|263|check_connection| Redis Connection Error
+2024-12-02 17:26:24,983|WARNING|redisControl.py|246|__init__| Could not connect to redis server
+2024-12-02 17:27:42,497|INFO|redisControl.py|23|<module>| Starting redisControl.py; loading libraries
+2024-12-02 17:27:47,367|INFO|redisControl.py|233|__init__| Attempting to connect to redis server
+2024-12-02 17:27:47,368|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:27:47,377|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:27:47,379|DEBUG|redisControl.py|188|main| Connection to redis server established
+2024-12-02 17:27:47,379|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:27:47,381|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:27:47,382|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:27:47,382|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:27:47,383|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:29:15,754|INFO|redisControl.py|23|<module>| Starting redisControl.py; loading libraries
+2024-12-02 17:29:20,624|INFO|redisControl.py|233|__init__| Attempting to connect to redis server
+2024-12-02 17:29:20,625|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:29:20,636|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:29:20,638|DEBUG|redisControl.py|188|main| Connection to redis server established
+2024-12-02 17:29:20,638|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:29:20,640|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:29:20,641|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:29:20,641|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:29:20,642|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:29:42,802|INFO|redisControl.py|23|<module>| Starting redisControl.py; loading libraries
+2024-12-02 17:29:47,645|INFO|redisControl.py|233|__init__| Attempting to connect to redis server
+2024-12-02 17:29:47,646|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:29:47,655|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:29:47,656|DEBUG|redisControl.py|188|main| Connection to redis server established
+2024-12-02 17:29:47,657|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:29:47,658|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:29:47,659|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:29:47,660|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:29:47,661|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:40:10,360|INFO|redisControl.py|23|<module>| Starting redisControl.py; loading libraries
+2024-12-02 17:40:15,202|INFO|redisControl.py|233|__init__| Attempting to connect to redis server
+2024-12-02 17:40:15,202|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:40:15,211|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:40:15,213|DEBUG|redisControl.py|188|main| Connection to redis server established
+2024-12-02 17:40:15,214|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:40:15,216|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:40:15,217|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:40:15,218|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:40:15,219|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:41:21,469|INFO|redisControl.py|23|<module>| Starting redisControl.py; loading libraries
+2024-12-02 17:41:26,338|INFO|redisControl.py|233|__init__| Attempting to connect to redis server
+2024-12-02 17:41:26,339|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:41:26,349|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:41:26,351|DEBUG|redisControl.py|188|main| Connection to redis server established
+2024-12-02 17:41:26,352|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:41:26,354|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:41:26,355|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:41:26,356|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:41:26,357|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:41:56,051|INFO|redisControl.py|23|<module>| Starting redisControl.py; loading libraries
+2024-12-02 17:42:00,979|INFO|redisControl.py|233|__init__| Attempting to connect to redis server
+2024-12-02 17:42:00,980|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:42:00,988|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:42:00,990|DEBUG|redisControl.py|188|main| Connection to redis server established
+2024-12-02 17:42:00,996|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:42:00,998|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:42:00,998|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:42:00,999|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:42:01,000|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:42:08,243|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:42:08,244|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/Xilinx/dualchan_v2.bit'}
+2024-12-02 17:42:52,222|INFO|redisControl.py|23|<module>| Starting redisControl.py; loading libraries
+2024-12-02 17:42:57,052|INFO|redisControl.py|233|__init__| Attempting to connect to redis server
+2024-12-02 17:42:57,053|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:42:57,061|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:42:57,063|DEBUG|redisControl.py|188|main| Connection to redis server established
+2024-12-02 17:42:57,063|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:42:57,065|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:42:57,066|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:42:57,066|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:42:57,067|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:43:04,446|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:43:04,446|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 17:43:11,212|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:43:11,213|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:43:11,214|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:43:11,215|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:46:31,712|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:46:31,713|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 17:46:37,455|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:46:37,456|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:46:37,458|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:46:37,458|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:46:37,460|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:46:37,460|DEBUG|redisControl.py|219|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 17:46:37,478|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:46:37,480|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:46:37,481|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:46:37,482|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:46:37,483|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:46:37,484|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 17:46:38,867|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:46:38,868|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:46:38,869|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:46:38,870|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:52:43,243|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:52:43,243|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 17:52:48,075|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:52:48,076|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:52:48,077|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:52:48,078|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:52:48,079|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:52:48,080|DEBUG|redisControl.py|219|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 17:52:48,098|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:52:48,100|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:52:48,102|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:52:48,103|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:52:48,104|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:52:48,104|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 17:52:49,606|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:52:49,607|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:52:49,609|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:52:49,610|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:52:49,610|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:52:49,611|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 17:52:51,118|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:52:51,119|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:52:51,121|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:52:51,121|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:53:01,906|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:53:01,906|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 17:53:06,912|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:53:06,913|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:53:06,915|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:53:06,915|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:53:06,916|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:53:06,917|DEBUG|redisControl.py|219|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 17:53:06,935|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:53:06,937|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:53:06,938|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:53:06,939|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:53:06,940|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:53:06,941|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 17:53:08,468|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:53:08,469|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:53:08,471|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:53:08,472|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:53:08,472|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:53:08,473|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 17:53:09,987|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:53:09,989|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:53:09,990|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:53:09,992|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:24,725|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:56:24,726|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 17:56:29,791|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:29,794|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:29,796|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:29,797|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:29,798|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:56:29,800|DEBUG|redisControl.py|219|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 17:56:29,816|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:29,818|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:29,819|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:29,821|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:29,822|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:56:29,823|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 17:56:31,338|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:31,340|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:31,341|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:31,343|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:31,344|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:56:31,345|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 17:56:32,848|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:32,849|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:32,851|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:32,852|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:38,835|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:56:38,835|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 17:56:43,932|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:43,933|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:43,934|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:43,935|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:43,937|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:56:43,937|DEBUG|redisControl.py|219|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 17:56:43,956|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:43,957|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:43,958|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:43,959|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:43,960|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:56:43,961|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 17:56:45,471|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:45,473|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:45,474|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:45,475|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:45,476|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:56:45,476|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 17:56:46,997|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:46,998|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:56:47,000|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:56:47,001|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:23,036|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:57:23,037|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 17:57:28,160|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:28,162|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:28,164|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:28,165|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:28,166|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:57:28,168|DEBUG|redisControl.py|219|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 17:57:28,184|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:28,186|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:28,187|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:28,190|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:28,191|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:57:28,193|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 17:57:29,692|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:29,693|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:29,695|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:29,696|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:29,697|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:57:29,698|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 17:57:31,210|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:31,212|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:31,214|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:31,215|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:41,253|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:57:41,254|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 17:57:46,436|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:46,437|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:46,439|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:46,440|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:46,440|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:57:46,441|DEBUG|redisControl.py|219|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 17:57:46,459|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:46,461|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:46,462|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:46,463|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:46,464|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:57:46,467|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 17:57:47,981|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:47,983|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:47,984|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:47,985|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:47,986|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 17:57:47,987|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 17:57:49,511|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:49,514|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 17:57:49,515|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 17:57:49,516|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:48:44,886|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:48:44,887|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 18:48:50,112|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:48:50,113|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:48:50,114|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:48:50,115|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:48:50,116|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:48:50,117|DEBUG|redisControl.py|219|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 18:48:50,135|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:48:50,137|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:48:50,138|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:48:50,139|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:48:50,139|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:48:50,140|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 18:48:51,624|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:48:51,625|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:48:51,626|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:48:51,627|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:48:51,628|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:48:51,629|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 18:48:53,132|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:48:53,134|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:48:53,135|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:48:53,136|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:49:27,681|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:49:27,682|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 18:49:32,964|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:49:32,966|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:49:32,967|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:49:32,968|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:49:32,969|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:49:32,971|DEBUG|redisControl.py|219|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 18:49:32,987|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:49:32,990|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:49:32,991|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:49:32,993|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:49:32,994|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:49:32,994|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 18:49:34,513|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:49:34,514|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:49:34,516|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:49:34,517|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:49:34,518|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:49:34,518|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 18:49:36,013|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:49:36,015|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:49:36,016|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:49:36,017|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:50:32,784|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:50:32,785|DEBUG|redisControl.py|219|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 18:50:37,584|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:50:37,586|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:50:37,587|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:50:37,589|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:50:37,590|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:50:37,592|DEBUG|redisControl.py|219|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 18:50:37,607|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:50:37,610|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:50:37,611|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:50:37,612|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:50:37,613|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:50:37,615|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 18:50:39,117|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:50:39,119|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:50:39,120|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:50:39,121|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:50:39,122|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:50:39,122|DEBUG|redisControl.py|219|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 18:50:40,625|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:50:40,627|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:50:40,628|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:50:40,629|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:50:40,630|DEBUG|redisControl.py|197|main| received a message from redis server
+2024-12-02 18:50:40,630|DEBUG|redisControl.py|219|main| Executing command: get_tone_list with args: {'channel': 1}
+2024-12-02 18:50:40,631|ERROR|redisControl.py|167|get_tone_list| missing required parameters
+2024-12-02 18:50:40,631|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:50:40,632|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:50:40,634|DEBUG|redisControl.py|255|check_connection| Checking connection to redis server
+2024-12-02 18:50:40,635|DEBUG|redisControl.py|260|check_connection| Redis Connection Status: True
+2024-12-02 18:53:03,467|INFO|redisControl.py|23|<module>| Starting redisControl.py; loading libraries
+2024-12-02 18:53:08,448|INFO|redisControl.py|232|__init__| Attempting to connect to redis server
+2024-12-02 18:53:08,449|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:08,458|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:08,460|DEBUG|redisControl.py|187|main| Connection to redis server established
+2024-12-02 18:53:08,461|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:08,462|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:08,463|DEBUG|redisControl.py|196|main| received a message from redis server
+2024-12-02 18:53:08,464|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:08,466|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:15,882|DEBUG|redisControl.py|196|main| received a message from redis server
+2024-12-02 18:53:15,883|DEBUG|redisControl.py|218|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 18:53:20,512|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:20,514|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:20,516|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:20,517|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:20,519|DEBUG|redisControl.py|196|main| received a message from redis server
+2024-12-02 18:53:20,521|DEBUG|redisControl.py|218|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 18:53:20,536|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:20,539|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:20,540|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:20,542|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:20,543|DEBUG|redisControl.py|196|main| received a message from redis server
+2024-12-02 18:53:20,543|DEBUG|redisControl.py|218|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 18:53:21,973|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:21,975|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:21,976|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:21,977|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:21,978|DEBUG|redisControl.py|196|main| received a message from redis server
+2024-12-02 18:53:21,979|DEBUG|redisControl.py|218|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 18:53:23,674|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:23,675|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:23,677|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:23,677|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:23,678|DEBUG|redisControl.py|196|main| received a message from redis server
+2024-12-02 18:53:23,679|DEBUG|redisControl.py|218|main| Executing command: get_tone_list with args: {'channel': 1}
+2024-12-02 18:53:23,679|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:23,680|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:23,681|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:23,683|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:23,683|DEBUG|redisControl.py|196|main| received a message from redis server
+2024-12-02 18:53:23,684|DEBUG|redisControl.py|218|main| Executing command: get_tone_list with args: {'channel': 2}
+2024-12-02 18:53:23,684|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:23,686|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:53:23,687|DEBUG|redisControl.py|254|check_connection| Checking connection to redis server
+2024-12-02 18:53:23,688|DEBUG|redisControl.py|259|check_connection| Redis Connection Status: True
+2024-12-02 18:54:45,382|INFO|redisControl.py|23|<module>| Starting redisControl.py; loading libraries
+2024-12-02 18:54:50,268|INFO|redisControl.py|239|__init__| Attempting to connect to redis server
+2024-12-02 18:54:50,269|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:54:50,277|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:54:50,279|DEBUG|redisControl.py|194|main| Connection to redis server established
+2024-12-02 18:54:50,279|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:54:50,281|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:54:50,282|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:54:50,282|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:54:50,283|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:01,321|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:01,322|DEBUG|redisControl.py|225|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 18:55:05,992|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:05,994|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:05,995|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:05,996|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:05,997|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:05,997|DEBUG|redisControl.py|225|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 18:55:06,016|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:06,017|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:06,018|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:06,019|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:06,020|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:06,020|DEBUG|redisControl.py|225|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 18:55:07,440|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:07,441|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:07,442|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:07,443|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:07,444|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:07,445|DEBUG|redisControl.py|225|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 18:55:08,917|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:08,919|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:08,921|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:08,922|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:08,923|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:08,924|DEBUG|redisControl.py|225|main| Executing command: get_tone_list with args: {'channel': 1}
+2024-12-02 18:55:08,925|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:08,926|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:08,928|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:08,928|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:08,929|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:08,930|DEBUG|redisControl.py|225|main| Executing command: get_tone_list with args: {'channel': 2}
+2024-12-02 18:55:08,930|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:08,931|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:08,932|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:08,933|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:32,253|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:32,254|DEBUG|redisControl.py|225|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 18:55:37,600|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:37,602|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:37,604|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:37,605|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:37,606|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:37,607|DEBUG|redisControl.py|225|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 18:55:37,624|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:37,626|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:37,628|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:37,629|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:37,630|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:37,631|DEBUG|redisControl.py|225|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 18:55:39,118|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:39,120|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:39,122|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:39,122|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:39,123|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:39,124|DEBUG|redisControl.py|225|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 18:55:40,621|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:40,623|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:40,624|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:40,625|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:40,626|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:40,626|DEBUG|redisControl.py|225|main| Executing command: get_tone_list with args: {'channel': 1}
+2024-12-02 18:55:40,627|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:40,628|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:40,629|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:40,631|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:40,632|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:40,632|DEBUG|redisControl.py|225|main| Executing command: get_tone_list with args: {'channel': 2}
+2024-12-02 18:55:40,633|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:40,634|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:40,635|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:40,637|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:51,414|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:51,415|DEBUG|redisControl.py|225|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 18:55:56,164|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:56,166|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:56,168|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:56,169|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:56,170|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:56,170|DEBUG|redisControl.py|225|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 18:55:56,187|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:56,189|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:56,191|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:56,192|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:56,193|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:56,194|DEBUG|redisControl.py|225|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 18:55:57,687|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:57,688|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:57,689|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:57,690|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:57,691|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:57,692|DEBUG|redisControl.py|225|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 18:55:59,171|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:59,173|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:59,174|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:59,175|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:59,175|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:59,176|DEBUG|redisControl.py|225|main| Executing command: get_tone_list with args: {'channel': 1}
+2024-12-02 18:55:59,176|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:59,177|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:59,178|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:59,179|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:59,180|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 18:55:59,181|DEBUG|redisControl.py|225|main| Executing command: get_tone_list with args: {'channel': 2}
+2024-12-02 18:55:59,182|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:59,183|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 18:55:59,184|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 18:55:59,185|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:33,802|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 19:01:33,803|DEBUG|redisControl.py|225|main| Executing command: upload_bitstream with args: {'abs_bitstream_path': '/home/xilinx/dualchan_v2.bit'}
+2024-12-02 19:01:39,018|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:39,020|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:39,021|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:39,022|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:39,023|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 19:01:39,024|DEBUG|redisControl.py|225|main| Executing command: config_hardware with args: {'data_a_srcip': '192.168.3.41', 'data_a_dstip': '192.168.3.40', 'data_b_dstip': '192.168.4.41', 'data_b_srcip': '192.168.4.40', 'destmac_a_msb': '681CA212', 'destmac_a_lsb': '3652', 'destmac_b_msb': '681CA212', 'destmac_b_lsb': '3652', 'port_a': 4096, 'port_b': 4096}
+2024-12-02 19:01:39,042|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:39,044|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:39,045|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:39,046|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:39,047|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 19:01:39,047|DEBUG|redisControl.py|225|main| Executing command: set_tone_list with args: {'tone_list': [50000000.0], 'channel': 1, 'amplitudes': [1.0]}
+2024-12-02 19:01:40,544|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:40,546|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:40,547|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:40,548|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:40,549|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 19:01:40,550|DEBUG|redisControl.py|225|main| Executing command: set_tone_list with args: {'tone_list': [75000000.0], 'channel': 2, 'amplitudes': [1.0]}
+2024-12-02 19:01:42,037|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:42,039|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:42,040|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:42,042|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:42,044|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 19:01:42,045|DEBUG|redisControl.py|225|main| Executing command: get_tone_list with args: {'channel': 1}
+2024-12-02 19:01:42,045|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:42,046|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:42,048|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:42,049|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:42,050|DEBUG|redisControl.py|203|main| received a message from redis server
+2024-12-02 19:01:42,050|DEBUG|redisControl.py|225|main| Executing command: get_tone_list with args: {'channel': 2}
+2024-12-02 19:01:42,051|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:42,052|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True
+2024-12-02 19:01:42,053|DEBUG|redisControl.py|261|check_connection| Checking connection to redis server
+2024-12-02 19:01:42,055|DEBUG|redisControl.py|266|check_connection| Redis Connection Status: True

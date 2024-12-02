@@ -10,7 +10,8 @@ matplotlib = "*"
 numpy = "*"
 redis = "*"
 h5py = "*"
-
+pytest = "*"
+pytest-html = "*"
 
 [dev-packages]
 build = "*"
