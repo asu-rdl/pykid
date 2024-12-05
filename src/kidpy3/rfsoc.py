@@ -43,7 +43,7 @@ class RedisConnection:
 
         if self.is_connected():
             self.pubsub = self.r.pubsub()
-            self.pubsub.subscribe("REPLY") # TODO: Check if this needs to be unique.
+            self.pubsub.subscribe("REPLY")  # TODO: Check if this needs to be unique.
             log.debug(self.pubsub.get_message(timeout=1))
 
     def is_connected(self):
@@ -134,9 +134,8 @@ class RedisConnection:
             return
 
 
-
 class RFSOC:
-    def __init__(self, yaml_file: str ) -> None:
+    def __init__(self, yaml_file: str) -> None:
         """This is the key interface between the User's commands and the responding RFSOC system.
         A yaml file must be specified in the path. If the file in the given path does not exist, one
         will be created.
@@ -144,15 +143,16 @@ class RFSOC:
         assert yaml_file is not None, "Please provide a valid yml file path even if it doesn't yet exist."
 
         if not os.path.exists(yaml_file):
-            log.warning("yaml file doesn't exist; one will be created. Please edit it to fill in the relevant details." + 
-                        "then reload the program or call reload_cfg()")
+            log.warning(
+                "yaml file doesn't exist; one will be created. Please edit it to fill in the relevant details." +
+                "then reload the program or call reload_cfg()")
             self.cfg = generate_config(yaml_file)
         else:
             self.cfg = OmegaConf.load(yaml_file)
             self.yaml_file = yaml_file
             self.rf1 = Rfchan()
             self.rf2 = Rfchan()
-            
+
             try:
                 self.name = self.cfg.rfsoc_config.rfsoc_name
                 self.eth = self.cfg.rfsoc_config.ethernet_config
@@ -185,11 +185,10 @@ class RFSOC:
         self.rf2.port = self.eth.port_b
         self.bitstream = self.cfg.rfsoc_config.bitstream
 
-
-# FIXME: We're actually goin go pull this from the yml file
+    # FIXME: We're actually goin go pull this from the yml file
     def upload_bitstream(self):
         """Command the RFSoC to upload(or reupload) it's FPGA Firmware"""
-        
+
         args = {"abs_bitstream_path": self.bitstream}
         response = self.rcon.issue_command(self.name, "upload_bitstream", args, 20)
         if response is None:
@@ -200,7 +199,7 @@ class RFSOC:
 
     def config_hardware(self) -> bool:
         """
-        Configure the network parameters on the RFSOC. 
+        Configure the network parameters on the RFSOC.
         These paremeters are sources from the YAML file provided by the user when the RFSOC object
         is initialized.
         """
@@ -226,7 +225,7 @@ class RFSOC:
     def set_tone_list(self, chan=1, tonelist=[], amplitudes=[]):
         """Set a DAC channel to generate a signal from a list of tones
 
-        :param chan: The DAC channel on the RFSoC to set. 
+        :param chan: The DAC channel on the RFSoC to set.
             Channel 1 is for Dac0 (I), Dac1 (Q)
             Channel 2 is for Dac2 (I), Dac3 (Q)
         :type chan: int
@@ -235,7 +234,7 @@ class RFSOC:
         :param amplitudes: list of tone powers per tone, Normalized to 1, defaults to []
         :type amplitudes: list, optional
         """
-        assert chan==1 or chan==2, "Expected either channel 1 or channel 2"
+        assert chan == 1 or chan == 2, "Expected either channel 1 or channel 2"
         assert len(tonelist) > 0, "Expected a list of at least 1 frequency"
         assert len(amplitudes) == len(tonelist), "Expected the amplitude list to have the same length as the tone list"
         f = tonelist
@@ -260,7 +259,6 @@ class RFSOC:
             self.rf2.baseband_freqs = f
             self.rf2.tone_powers = a
             self.rf2.n_tones = len(f)
-
 
         response = self.rcon.issue_command(self.name, "set_tone_list", data, 10)
         if response is None:
