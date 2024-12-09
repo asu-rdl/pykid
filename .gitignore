@@ -4,3 +4,4 @@ tests/__pycache__
 dist
 kidpy3.egg-info
 rfsoc/__pycache__
+src/kidpy3/__pycache__

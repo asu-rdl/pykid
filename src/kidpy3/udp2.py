@@ -1,15 +1,16 @@
+
 """
 Overview
 ________
 
 udp2 is the Next iteration of udpcap. Here, we want to facilitate the process of pulling data
-from multiple channels from multiple RFSOC's in a multiprocessing environment.
+from multiple channels from multiple RFSOC's in a multiprocessing environment. 
 Unlike udpcap, udp2 utilizes the hdf5 obervation file format defined by data_handler.
 
 .. note::
     A key part of python multiprocessing library is 'pickling'. This is a funny name to describe object serialization. Essentially, our code needs
     to be convertable into a stream of bytes that can be passed intoa new python interpreter process.
-    Certain typs of variables such as h5py objects or sockets can't be pickled. We therefore have to create the h5py/socket objects we need post-pickle.
+    Certain typs of variables such as h5py objects or sockets can't be pickled. We therefore have to create the h5py/socket objects we need post-pickle. 
 
 :Authors: Cody Roberson
 :Date: 2023-08-02
@@ -27,11 +28,10 @@ import socket
 import time
 import multiprocessing as mp
 
-RED = '\033[0;31m'
-NC = '\033[0m'  # No Color
+RED='\033[0;31m'
+NC='\033[0m' # No Color
 
 logger = logging.getLogger(__name__)
-
 
 def __data_writer_process(dataqueue, chan: Rfchan, runFlag):
     """
@@ -50,7 +50,7 @@ def __data_writer_process(dataqueue, chan: Rfchan, runFlag):
         raw.format(chan.n_sample, chan.n_tones, chan.n_fftbins)
         # raw.set_global_data(chan)
     except Exception as e:
-        errorstr = RED + str(e) + NC
+        errorstr = RED+str(e)+NC
         log.exception(errorstr)
         return
         # raise e
@@ -78,18 +78,17 @@ def __data_writer_process(dataqueue, chan: Rfchan, runFlag):
         raw.resize(indx)
         log.debug("resized")
         # Get Data
-        raw.adc_i[:, indx - 488: indx] = adci
-        raw.adc_q[:, indx - 488: indx] = adcq
-        raw.timestamp[indx - 488: indx] = timestamp
+        raw.adc_i[:, indx - 488 : indx] = adci
+        raw.adc_q[:, indx - 488 : indx] = adcq
+        raw.timestamp[indx - 488 : indx] = timestamp
         raw.n_sample[0] = indx
         t2 = time.perf_counter_ns()
         log.debug(f"Parsed in this loop's data <{chan.name}>")
-        log.debug(f"Data Writer deltaT = {(t2 - t1) * 1e-6} ms for <{chan.name}>")
+        log.debug(f"Data Writer deltaT = {(t2-t1)*1e-6} ms for <{chan.name}>")
 
     raw.close()
     log.debug(f"Queue closed, closing file and exiting for <{chan.name}>")
-    # log.warning("Keyboard Interrupt Caught. This terminates processes that may be writing to a file. Expect possible hdf5 data corruption")
-
+    #log.warning("Keyboard Interrupt Caught. This terminates processes that may be writing to a file. Expect possible hdf5 data corruption")
 
 def __data_collector_process(dataqueue, chan: Rfchan, runFlag):
     """
@@ -110,7 +109,7 @@ def __data_collector_process(dataqueue, chan: Rfchan, runFlag):
         s.settimeout(10)
     except Exception as e:
         dataqueue.put(None)
-        errorstr = RED + str(e) + NC
+        errorstr = RED+str(e)+NC
         log.exception(errorstr)
         return
     # log.debug(f"Socket bound - <{chan.name}>")
@@ -130,7 +129,7 @@ def __data_collector_process(dataqueue, chan: Rfchan, runFlag):
             for k in range(488):
                 data = s.recv(8208 * 1)
                 datarray = bytearray(data)
-                spec_data = np.frombuffer(datarray, dtype='<i')
+                spec_data = np.frombuffer(datarray, dtype = '<i')
                 i[:, k] = spec_data[0::2][0:1024]
                 q[:, k] = spec_data[1::2][0:1024]
                 ts[k] = time.time()
@@ -141,24 +140,23 @@ def __data_collector_process(dataqueue, chan: Rfchan, runFlag):
             break
         idx = idx + 488
         t2 = time.perf_counter_ns()
-        log.debug(f"datacollector deltaT = {(t2 - t1) * 1e-6} ms")
+        log.debug(f"datacollector deltaT = {(t2-t1)*1e-6} ms")
     log.debug(f"exited while loop, putting None in dataqueue for <{chan.name}> ")
     dataqueue.put(None)
     s.close()
     return
-
 
 def exceptionCallback(e: Exception):
     log = logger.getChild(__name__)
     log.error(str(e))
     raise e
 
-
 def capture2(channels: list, fn, *args, **kwargs):
     """
     """
     user_fn_ret = None
     with mp.Pool() as pool:
+        
         # runFlag = mp.Manager.Value(ctypes.c_bool, True)
         runFlag = True
         for chan in channels:
@@ -169,7 +167,6 @@ def capture2(channels: list, fn, *args, **kwargs):
         pool.close()
     return user_fn_ret
 
-
 def capture(channel: Rfchan, n_packets: int):
     """
     Captures to memmory instead of to a file, returning the result.
@@ -178,41 +175,40 @@ def capture(channel: Rfchan, n_packets: int):
     soc = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
         soc.bind((channel.ip, channel.port))
-    except socket.error:
-        log.error("Tried to bind to the socket but failed. It may already be in use or the address/port" +
+    except socket.error: 
+        log.error("Tried to bind to the socket but failed. It may already be in use or the address/port"+
                   "in question is invalid. The ethernet port could otherwise be disconnected as well")
-
+    
     def parse_packet(self):
         try:
             soc.timeout(1)
             data = soc.recv(8208 * 1)
-            if len(data) < 8000:
+            if len(data) <  8000:
                 print("invalid packet recieved")
                 return
             datarray = bytearray(data)
-
+            
             # now allow a shift of the bytes
-            spec_data = np.frombuffer(datarray, dtype='<i')
+            spec_data = np.frombuffer(datarray, dtype = '<i')
             # offset allows a shift in the bytes
-            return spec_data  # int32 data type
+            return spec_data # int32 data type
         except socket.timeout:
-            log.error("The socket timed out and we couldn't obtain data. There are a few diagnostics:" +
-                      "\n1. Is the FPGA programmed and generating tones?" +
-                      "\n2. Is the mac address for this channel correct?" +
-                      "\n3. In the OS, is an MTU of 9000 set for this ethernet interface?" +
+            log.error("The socket timed out and we couldn't obtain data. There are a few diagnostics:"+
+                      "\n1. Is the FPGA programmed and generating tones?"+
+                      "\n2. Is the mac address for this channel correct?"+
+                      "\n3. In the OS, is an MTU of 9000 set for this ethernet interface?"+
                       "\n4. Are both the Ip source and destination addresses correct?")
+    
+    packets = np.zeros(shape=(2052, n_packets))
 
-        packets = np.zeros(shape=(2052, n_packets))
-
-        for i in range(n_packets):
-            data_2 = parse_packet()
-            packets[:, i] = data_2
-            if i % 488 == 0:
-                print("{}/{} captured ({:.3f}% Complete)".format(i, n_packets,
-                                                                 (n_packets / 488) * 100.0))
-        soc.close()
-        return packets
-
+    for i in range(n_packets):
+        data_2 = parse_packet()
+        packets[:,i] = data_2 
+        if i%488 == 0:
+            print("{}/{} captured ({:.3f}% Complete)".format(i, n_packets,
+                                                                (n_packets / 488) * 100.0))
+    soc.close()
+    return packets
 
 def capture(channels: list, fn=None, *args, **kwargs):
     """
@@ -248,27 +244,27 @@ def capture(channels: list, fn=None, *args, **kwargs):
     The following spawns a data read/writer pair for rfsoc and waits 30 seconds.
 
     .. code::
-
+        
         # Example 1 Usage
         bb = self.get_last_flist()
-        rfsoc1 = data_handler.RFChannel(savefile, "192.168.5.40",
+        rfsoc1 = data_handler.RFChannel(savefile, "192.168.5.40", 
                                         4096, "rfsoc1", baseband_freqs=bb,
-                                        tone_powers=self.get_last_alist(),
+                                        tone_powers=self.get_last_alist(), 
                                         n_resonator=len(bb), attenuator_settings=np.array([20.0, 10.0]),
-                                        tile_number=1, rfsoc_number=1,
+                                        tile_number=1, rfsoc_number=1, 
                                         lo_sweep_filename=data_handler.get_last_lo("rfsoc1"))
-        rfsoc2 = data_handler.RFChannel(savefile, "192.168.6.40",
+        rfsoc2 = data_handler.RFChannel(savefile, "192.168.6.40", 
                                         4096, "rfsoc1", baseband_freqs=bb,
-                                        tone_powers=self.get_last_alist(),
+                                        tone_powers=self.get_last_alist(), 
                                         n_resonator=len(bb), attenuator_settings=np.array([20.0, 10.0]),
-                                        tile_number=1, rfsoc_number=1,
+                                        tile_number=1, rfsoc_number=1, 
                                         lo_sweep_filename=data_handler.get_last_lo("rfsoc1"))
-
+        
         udp2.capture([rfsoc1, rfsoc2], time.sleep, 30)
 
         # Example 2 usage
         udp2.capture([rfsoc1],motor.AZ_scan_mode,0.0,10.0,savefile,n_repeats=2,position_return=True)
-
+        
     """
     log = logger.getChild(__name__)
 
@@ -308,7 +304,7 @@ def capture(channels: list, fn=None, *args, **kwargs):
             pool.join()
         except Exception as e:
             log.error("While calling fn, an exception occured")
-            errorstr = RED + str(e) + NC
+            errorstr = RED+str(e)+NC
             log.exception(errorstr)
             pool.terminate()
             pool.join()
@@ -320,7 +316,7 @@ def capture(channels: list, fn=None, *args, **kwargs):
     try:
         pool.join()
     except KeyboardInterrupt:
-        errorstr = RED + str(e) + NC
+        errorstr = RED+str(e)+NC
         log.exception(errorstr)
         pool.terminate()
         pool.join()
