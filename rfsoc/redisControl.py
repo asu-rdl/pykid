@@ -73,12 +73,17 @@ def upload_bitstream(uuid, data: dict):
     except KeyError:
         err = "missing required parameters"
         log.error(err)
+    except IOError as e:
+        err = f"Could not find specified file, pynq library reports\n{str(e)}"
+        log.error(err)
+    except OSError as e:
+        err = f"Could not find specified file, pynq library reports\n{str(e)}"
+        log.error(err)
     return create_response(status, uuid, error=err)
 
 
 def config_hardware(uuid, data: dict):
     """
-
     :param uuid:
     :param data:
     :return:
